@@ -28,6 +28,7 @@ const LandingPage = () => {
       title: 'Web Coffee Bean Quality',
       description: 'A coffee bean quality assessment expert system based on SCAA and SNI standards using rule-based reasoning method',
       tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/project1.jpg',
       link: 'https://github.com/devbyaziz/web-coffee-bean-quality'
     },
     {
@@ -35,6 +36,7 @@ const LandingPage = () => {
       title: 'CCTV Traffic Forecasting',
       description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
       tags: ['Python'],
+      image: '/images/projects/project2.jpg',
       link: 'https://github.com/devbyaziz/forecast-project'
     },
     {
@@ -42,6 +44,7 @@ const LandingPage = () => {
       title: 'Mario Game',
       description: 'A simple 2D Mario game built using vanilla HTML, CSS, and JavaScript',
       tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/project3.jpg',
       link: 'https://github.com/devbyaziz/mario-js'
     },
     {
@@ -49,6 +52,7 @@ const LandingPage = () => {
       title: 'Weather App',
       description: 'A modern and interactive weather forecast application using OpenWeather API',
       tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/project4.jpg',
       link: 'https://github.com/devbyaziz/weather-app/tree/main'
     },
     {
@@ -56,6 +60,7 @@ const LandingPage = () => {
       title: 'Restful API e-Commerce',
       description: 'A simple RESTful API for e-commerce application with complete CRUD operations',
       tags: ['Express.js', 'Node.js', 'SQLite', 'Prisma'],
+      image: '/images/projects/project5.jpg',
       link: 'https://github.com/devbyaziz/restfulAPI-Training'
     },
     {
@@ -63,6 +68,7 @@ const LandingPage = () => {
       title: 'Tic Tac Toe Game',
       description: 'A simple Tic Tac Toe game with unbeatable AI using Minimax algorithm',
       tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/project6.jpg',
       link: 'https://github.com/devbyaziz/tic-tac-toe'
     },
     {
@@ -70,6 +76,7 @@ const LandingPage = () => {
       title: 'SOS Game',
       description: 'A basic SOS game implementation with interactive gameplay',
       tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/project7.jpg',
       link: 'https://github.com/devbyaziz/sosGame'
     },
     {
@@ -77,6 +84,7 @@ const LandingPage = () => {
       title: 'Berita Oleh Aziz',
       description: 'A news website that provides the latest news articles from various sources using GNews API',
       tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/project8.jpg',
       link: 'https://github.com/devbyaziz/beritaolehAziz'
     },
     {
@@ -84,6 +92,7 @@ const LandingPage = () => {
       title: 'myPortfolio v1',
       description: 'My personal portfolio website version 1 showcasing projects and skills',
       tags: ['React', 'CSS', 'TypeScript'],
+      image: '/images/projects/project9.jpg',
       link: 'https://github.com/devbyaziz/myPortfolio-v1'
     }
   ];
@@ -109,6 +118,7 @@ const LandingPage = () => {
       date: '13 May 2025',
       description: 'Mastered the fundamentals of Python programming based on industry standards, including program development using Visual Studio Code, Jupyter Notebook, and Google Colaboratory.',
       tags: ['Python', 'Programming Basics', 'IDE'],
+      image: '/images/certificates/cert1.jpg',
       link: 'https://www.dicoding.com/certificates/N9ZO9VDORXG5'
     },
     {
@@ -118,6 +128,7 @@ const LandingPage = () => {
       date: '12 May 2025',
       description: 'Learned fundamental SQL concepts and mastered essential queries for data management, analysis, and database operations aimed at aspiring data analysts and data scientists.',
       tags: ['SQL', 'Database', 'Data Management'],
+      image: '/images/certificates/cert2.jpg',
       link: 'https://www.dicoding.com/certificates/6RPNREK89X2M'
     },
     {
@@ -127,6 +138,7 @@ const LandingPage = () => {
       date: '10 May 2025',
       description: 'Acquired skills in creating effective and insightful visual representations of data using industry-standard tools and techniques to communicate data-driven insights.',
       tags: ['Data Visualization', 'Data Analysis', 'Charts'],
+      image: '/images/certificates/cert3.jpg',
       link: 'https://www.dicoding.com/certificates/07Z63Y1LJZQR'
     },
     {
@@ -136,6 +148,7 @@ const LandingPage = () => {
       date: '29 April 2025',
       description: 'Learned fundamental data science concepts including data collection, cleaning, analysis, and visualization techniques to solve real-world problems.',
       tags: ['Data Science', 'Data Analysis', 'Python'],
+      image: '/images/certificates/cert4.jpg',
       link: 'https://www.dicoding.com/certificates/72ZD5WWE9ZYW'
     },
     {
@@ -145,6 +158,7 @@ const LandingPage = () => {
       date: '28 April 2025',
       description: 'Gained foundational knowledge in artificial intelligence, including core concepts, machine learning principles, and AI development techniques.',
       tags: ['Artificial Intelligence', 'Machine Learning', 'AI'],
+      image: '/images/certificates/cert5.jpg',
       link: 'https://www.dicoding.com/certificates/98XWEYM60XM3'
     },
     {
@@ -154,6 +168,7 @@ const LandingPage = () => {
       date: '27 April 2025',
       description: 'Acquired foundational knowledge in cloud computing and generative AI using AWS services, including practical skills for cloud infrastructure and AI implementation.',
       tags: ['Cloud Computing', 'Generative AI', 'AWS'],
+      image: '/images/certificates/cert6.jpg',
       link: 'https://www.dicoding.com/certificates/N9ZO25VO6PG5'
     }
   ];
@@ -390,24 +405,13 @@ const LandingPage = () => {
           </p>
           <div className={styles.aboutText} style={{ maxWidth: '900px', margin: '3rem auto 0', textAlign: 'justify' }}>
             <p>
-              Hi! I'm a Computer Engineering undergraduate and front-end developer who loves turning ideas into interactive, beautifully designed web experiences.
+              Hi, I am a final year computer engineering student and a programmer who focuses on front-end development. I'm passionate about turning creative ideas into interactive, beautifully designed web experiences that solve real problems.
             </p>
             <p>
-              My journey in web development started several years ago, and I've been fortunate to work
-              on diverse projects that have shaped my skills and broadened my perspective on technology.
-            </p>
-            <p>
-              I believe in writing clean, maintainable code and staying up-to-date with the latest
-              technologies to deliver the best solutions for every project.
-            </p>
-            <p>
-              I specialize in modern web technologies and frameworks, with a focus on creating
-              performant and scalable applications. I'm always eager to learn new technologies
-              and best practices to improve my craft.
+              Throughout my journey, I've worked on diverse projects ranging from expert systems to data visualization tools, which have strengthened my technical skills and broadened my understanding of technology. I specialize in modern web technologies like React and TypeScript, and I'm always eager to explore new tools and frameworks.
             </p>
             <p style={{ marginBottom: 0 }}>
-              When I'm not coding, you can find me exploring new technologies, contributing to
-              open-source projects, or sharing knowledge with the developer community.
+              Beyond coding, I value collaboration, clean code, and continuous learning. I'm passionate about expanding my knowledge and skills, constantly seeking new challenges and technologies to master. I believe great software is built when technical expertise meets user-centric design.
             </p>
           </div>
 
@@ -729,7 +733,9 @@ const LandingPage = () => {
                     {displayedProjects.map((project) => (
                       <div key={project.id} className={styles.carouselSlide}>
                         <div className={styles.projectCard}>
-                    <div className={styles.projectImage}></div>
+                    <div className={styles.projectImage}>
+                      <img src={project.image} alt={project.title} />
+                    </div>
                     <div className={styles.projectContent}>
                       <h3 className={styles.projectTitle}>{project.title}</h3>
                       <p className={styles.projectDescription}>
@@ -766,7 +772,9 @@ const LandingPage = () => {
                   <div className={styles.grid}>
                     {displayedProjects.map((project) => (
                       <div key={project.id} className={styles.projectCard}>
-                        <div className={styles.projectImage}></div>
+                        <div className={styles.projectImage}>
+                          <img src={project.image} alt={project.title} />
+                        </div>
                         <div className={styles.projectContent}>
                           <h3 className={styles.projectTitle}>{project.title}</h3>
                           <p className={styles.projectDescription}>
@@ -823,7 +831,9 @@ const LandingPage = () => {
                     {displayedCertificates.map((cert) => (
                       <div key={cert.id} className={styles.carouselSlide}>
                         <div className={styles.certificateCard}>
-                    <div className={styles.certificateImage}></div>
+                    <div className={styles.certificateImage}>
+                      <img src={cert.image} alt={cert.title} />
+                    </div>
                     <div className={styles.certificateContent}>
                       <h3 className={styles.certificateTitle}>{cert.title}</h3>
                       <p className={styles.certificateIssuer}>{cert.issuer}</p>
@@ -862,7 +872,9 @@ const LandingPage = () => {
                   <div className={styles.grid}>
                     {displayedCertificates.map((cert) => (
                       <div key={cert.id} className={styles.certificateCard}>
-                        <div className={styles.certificateImage}></div>
+                        <div className={styles.certificateImage}>
+                          <img src={cert.image} alt={cert.title} />
+                        </div>
                         <div className={styles.certificateContent}>
                           <h3 className={styles.certificateTitle}>{cert.title}</h3>
                           <p className={styles.certificateIssuer}>{cert.issuer}</p>
