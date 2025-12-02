@@ -26,63 +26,63 @@ const LandingPage = () => {
     {
       id: 1,
       title: 'Web Coffee Bean Quality',
-      description: 'coffe bean quality assesment exppert system based on scaa dan sni using rule based reasoning method',
+      description: 'A coffee bean quality assessment expert system based on SCAA and SNI standards using rule-based reasoning method',
       tags: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/devbyaziz/web-coffee-bean-quality'
     },
     {
       id: 2,
-      title: 'CCTv Travic Forcasting',
-      description: 'the forecasting system for cctv traffic prediction using sarimax model',
-      tags: ['Phyton'],
+      title: 'CCTV Traffic Forecasting',
+      description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
+      tags: ['Python'],
       link: 'https://github.com/devbyaziz/forecast-project'
     },
     {
       id: 3,
       title: 'Mario Game',
-      description: 'a simple 2d mario game made only using html css and javascript',
+      description: 'A simple 2D Mario game built using vanilla HTML, CSS, and JavaScript',
       tags: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/devbyaziz/mario-js'
     },
     {
       id: 4,
       title: 'Weather App',
-      description: 'a modern and interactive weather forecast application using openweather api',
+      description: 'A modern and interactive weather forecast application using OpenWeather API',
       tags: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/devbyaziz/weather-app/tree/main'
     },
     {
       id: 5,
       title: 'Restful API e-Commerce',
-      description: 'a simple restful api for e-commerce application',
+      description: 'A simple RESTful API for e-commerce application with complete CRUD operations',
       tags: ['Express.js', 'Node.js', 'SQLite', 'Prisma'],
       link: 'https://github.com/devbyaziz/restfulAPI-Training'
     },
     {
       id: 6,
       title: 'Tic Tac Toe Game',
-      description: 'a simple tic tac toe game with minimax algorithm implemented',
+      description: 'A simple Tic Tac Toe game with unbeatable AI using Minimax algorithm',
       tags: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/devbyaziz/tic-tac-toe'
     },
     {
       id: 7,
       title: 'SOS Game',
-      description: 'basic sos game implementation',
+      description: 'A basic SOS game implementation with interactive gameplay',
       tags: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/devbyaziz/sosGame'
     },
     {
       id: 8,
       title: 'Berita Oleh Aziz',
-      description: 'a news website that provides the latest news articles from various sources using gnews api',
+      description: 'A news website that provides the latest news articles from various sources using GNews API',
       tags: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/devbyaziz/beritaolehAziz'
     },
     {
       id: 9,
       title: 'myPortfolio v1',
-      description: 'my personal portfolio website version 1',
+      description: 'My personal portfolio website version 1 showcasing projects and skills',
       tags: ['React', 'CSS', 'TypeScript'],
       link: 'https://github.com/devbyaziz/myPortfolio-v1'
     }
@@ -104,57 +104,57 @@ const LandingPage = () => {
   const certificates = [
     {
       id: 1,
-      title: '',
-      issuer: '',
-      date: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Start Programming with Python',
+      issuer: 'Dicoding Indonesia',
+      date: '13 May 2025',
+      description: 'Mastered the fundamentals of Python programming based on industry standards, including program development using Visual Studio Code, Jupyter Notebook, and Google Colaboratory.',
+      tags: ['Python', 'Programming Basics', 'IDE'],
+      link: 'https://www.dicoding.com/certificates/N9ZO9VDORXG5'
     },
     {
       id: 2,
-      title: '',
-      issuer: '',
-      date: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Learn Basic SQL',
+      issuer: 'Dicoding Indonesia',
+      date: '12 May 2025',
+      description: 'Learned fundamental SQL concepts and mastered essential queries for data management, analysis, and database operations aimed at aspiring data analysts and data scientists.',
+      tags: ['SQL', 'Database', 'Data Management'],
+      link: 'https://www.dicoding.com/certificates/6RPNREK89X2M'
     },
     {
       id: 3,
-      title: '',
-      issuer: '',
-      date: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Learn Basic Data Visualization',
+      issuer: 'Dicoding Indonesia',
+      date: '10 May 2025',
+      description: 'Acquired skills in creating effective and insightful visual representations of data using industry-standard tools and techniques to communicate data-driven insights.',
+      tags: ['Data Visualization', 'Data Analysis', 'Charts'],
+      link: 'https://www.dicoding.com/certificates/07Z63Y1LJZQR'
     },
     {
       id: 4,
-      title: '',
-      issuer: '',
-      date: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Learn Basic Data Science',
+      issuer: 'Dicoding Indonesia',
+      date: '29 April 2025',
+      description: 'Learned fundamental data science concepts including data collection, cleaning, analysis, and visualization techniques to solve real-world problems.',
+      tags: ['Data Science', 'Data Analysis', 'Python'],
+      link: 'https://www.dicoding.com/certificates/72ZD5WWE9ZYW'
     },
     {
       id: 5,
-      title: '',
-      issuer: '',
-      date: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Learn Basic AI',
+      issuer: 'Dicoding Indonesia',
+      date: '28 April 2025',
+      description: 'Gained foundational knowledge in artificial intelligence, including core concepts, machine learning principles, and AI development techniques.',
+      tags: ['Artificial Intelligence', 'Machine Learning', 'AI'],
+      link: 'https://www.dicoding.com/certificates/98XWEYM60XM3'
     },
     {
       id: 6,
-      title: '',
-      issuer: '',
-      date: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Learn Basic Cloud and Gen AI AWS',
+      issuer: 'Dicoding Indonesia',
+      date: '27 April 2025',
+      description: 'Acquired foundational knowledge in cloud computing and generative AI using AWS services, including practical skills for cloud infrastructure and AI implementation.',
+      tags: ['Cloud Computing', 'Generative AI', 'AWS'],
+      link: 'https://www.dicoding.com/certificates/N9ZO25VO6PG5'
     }
   ];
 
