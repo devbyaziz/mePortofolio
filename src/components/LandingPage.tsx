@@ -25,66 +25,66 @@ const LandingPage = () => {
   const projects = [
     {
       id: 1,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Web Coffee Bean Quality',
+      description: 'coffe bean quality assesment exppert system based on scaa dan sni using rule based reasoning method',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/devbyaziz/web-coffee-bean-quality'
     },
     {
       id: 2,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'CCTv Travic Forcasting',
+      description: 'the forecasting system for cctv traffic prediction using sarimax model',
+      tags: ['Phyton'],
+      link: 'https://github.com/devbyaziz/forecast-project'
     },
     {
       id: 3,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Mario Game',
+      description: 'a simple 2d mario game made only using html css and javascript',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/devbyaziz/mario-js'
     },
     {
       id: 4,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Weather App',
+      description: 'a modern and interactive weather forecast application using openweather api',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/devbyaziz/weather-app/tree/main'
     },
     {
       id: 5,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Restful API e-Commerce',
+      description: 'a simple restful api for e-commerce application',
+      tags: ['Express.js', 'Node.js', 'SQLite', 'Prisma'],
+      link: 'https://github.com/devbyaziz/restfulAPI-Training'
     },
     {
       id: 6,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Tic Tac Toe Game',
+      description: 'a simple tic tac toe game with minimax algorithm implemented',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/devbyaziz/tic-tac-toe'
     },
     {
       id: 7,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'SOS Game',
+      description: 'basic sos game implementation',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/devbyaziz/sosGame'
     },
     {
       id: 8,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'Berita Oleh Aziz',
+      description: 'a news website that provides the latest news articles from various sources using gnews api',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/devbyaziz/beritaolehAziz'
     },
     {
       id: 9,
-      title: '',
-      description: '',
-      tags: [''],
-      link: ''
+      title: 'myPortfolio v1',
+      description: 'my personal portfolio website version 1',
+      tags: ['React', 'CSS', 'TypeScript'],
+      link: 'https://github.com/devbyaziz/myPortfolio-v1'
     }
   ];
 
@@ -92,9 +92,9 @@ const LandingPage = () => {
   const workExperiences = [
     {
       id: 1,
-      period: '2023 - Present',
+      period: 'Sept 2025 - Des 2025',
       title: 'Frontend Developer',
-      company: 'Tech Company Inc.',
+      company: 'Telkom Indonesia',
       description: 'Developing modern web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality products that exceed client expectations. Implemented responsive designs and optimized performance.',
       tags: ['React', 'TypeScript', 'Next.js', 'Tailwind']
     }
