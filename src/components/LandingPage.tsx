@@ -101,7 +101,7 @@ const LandingPage = () => {
   const workExperiences = [
     {
       id: 1,
-      period: 'Sept 2025 - Des 2025',
+      period: 'Sept 2025 - Nov 2025',
       title: 'Frontend Developer',
       company: 'Telkom Indonesia',
       description: 'Developing modern web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality products that exceed client expectations. Implemented responsive designs and optimized performance.',
@@ -924,7 +924,7 @@ const LandingPage = () => {
           <div className={styles.contactLinks}>
             {/* GitHub */}
             <div className={styles.contactItem}>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className={styles.contactIconLink}>
+              <a href="https://github.com/devbyaziz" target="_blank" rel="noopener noreferrer" className={styles.contactIconLink}>
                 <svg className={styles.contactIconSvg} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C20.565 21.795 24 17.295 24 12C24 5.37 18.63 0 12 0Z"/>
                 </svg>
@@ -932,19 +932,19 @@ const LandingPage = () => {
               <span className={styles.contactLabel}>GitHub</span>
             </div>
 
-            {/* Instagram */}
+            {/* LinkedIn */}
             <div className={styles.contactItem}>
-              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className={styles.contactIconLink}>
+              <a href="https://linkedin.com/in/aziz-al-habibie-simatupang" target="_blank" rel="noopener noreferrer" className={styles.contactIconLink}>
                 <svg className={styles.contactIconSvg} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2.163C15.204 2.163 15.584 2.175 16.85 2.233C20.102 2.381 21.621 3.924 21.769 7.152C21.827 8.417 21.838 8.797 21.838 12.001C21.838 15.206 21.826 15.585 21.769 16.85C21.62 20.075 20.105 21.621 16.85 21.769C15.584 21.827 15.206 21.839 12 21.839C8.796 21.839 8.416 21.827 7.151 21.769C3.891 21.62 2.38 20.07 2.232 16.849C2.174 15.584 2.162 15.205 2.162 12C2.162 8.796 2.175 8.417 2.232 7.151C2.381 3.924 3.896 2.38 7.151 2.232C8.417 2.175 8.796 2.163 12 2.163ZM12 0C8.741 0 8.333 0.014 7.053 0.072C2.695 0.272 0.273 2.69 0.073 7.052C0.014 8.333 0 8.741 0 12C0 15.259 0.014 15.668 0.072 16.948C0.272 21.306 2.69 23.728 7.052 23.928C8.333 23.986 8.741 24 12 24C15.259 24 15.668 23.986 16.948 23.928C21.302 23.728 23.73 21.31 23.927 16.948C23.986 15.668 24 15.259 24 12C24 8.741 23.986 8.333 23.928 7.053C23.732 2.699 21.311 0.273 16.949 0.073C15.668 0.014 15.259 0 12 0ZM12 5.838C8.597 5.838 5.838 8.597 5.838 12C5.838 15.403 8.597 18.163 12 18.163C15.403 18.163 18.162 15.404 18.162 12C18.162 8.597 15.403 5.838 12 5.838ZM12 16C9.791 16 8 14.21 8 12C8 9.791 9.791 8 12 8C14.209 8 16 9.791 16 12C16 14.21 14.209 16 12 16ZM18.406 4.155C17.61 4.155 16.965 4.8 16.965 5.595C16.965 6.39 17.61 7.035 18.406 7.035C19.201 7.035 19.845 6.39 19.845 5.595C19.845 4.8 19.201 4.155 18.406 4.155Z"/>
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
               </a>
-              <span className={styles.contactLabel}>Instagram</span>
+              <span className={styles.contactLabel}>LinkedIn</span>
             </div>
 
             {/* Gmail */}
             <div className={styles.contactItem}>
-              <a href="mailto:your.email@gmail.com" className={styles.contactIconLink}>
+              <a href="mailto:azizhabibie2002@gmail.com" className={styles.contactIconLink}>
                 <svg className={styles.contactIconSvg} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M24 5.457V18.543C24 19.893 22.893 21 21.543 21H2.457C1.107 21 0 19.893 0 18.543V5.457C0 4.107 1.107 3 2.457 3H21.543C22.893 3 24 4.107 24 5.457ZM21.543 5.457L12 11.793L2.457 5.457V6.771L12 13.107L21.543 6.771V5.457Z"/>
                 </svg>
