@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
-import styles from './LandingPage.module.css';
-import FloatingAstronaut from './FloatingAstronaut';
+import styles from './landing-page.module.css';
+import FloatingAstronaut from '../FloatingAstronaut';
 
 const LandingPage = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -734,7 +734,7 @@ const LandingPage = () => {
                       <div key={project.id} className={styles.carouselSlide}>
                         <div className={styles.projectCard}>
                     <div className={styles.projectImage}>
-                      <img src={project.image} alt={project.title} />
+                      <img src={project.image} alt={project.title} loading="lazy" />
                     </div>
                     <div className={styles.projectContent}>
                       <h3 className={styles.projectTitle}>{project.title}</h3>
@@ -773,7 +773,7 @@ const LandingPage = () => {
                     {displayedProjects.map((project) => (
                       <div key={project.id} className={styles.projectCard}>
                         <div className={styles.projectImage}>
-                          <img src={project.image} alt={project.title} />
+                          <img src={project.image} alt={project.title} loading="lazy" />
                         </div>
                         <div className={styles.projectContent}>
                           <h3 className={styles.projectTitle}>{project.title}</h3>
@@ -832,7 +832,7 @@ const LandingPage = () => {
                       <div key={cert.id} className={styles.carouselSlide}>
                         <div className={styles.certificateCard}>
                     <div className={styles.certificateImage}>
-                      <img src={cert.image} alt={cert.title} />
+                      <img src={cert.image} alt={cert.title} loading="lazy" />
                     </div>
                     <div className={styles.certificateContent}>
                       <h3 className={styles.certificateTitle}>{cert.title}</h3>
@@ -873,7 +873,7 @@ const LandingPage = () => {
                     {displayedCertificates.map((cert) => (
                       <div key={cert.id} className={styles.certificateCard}>
                         <div className={styles.certificateImage}>
-                          <img src={cert.image} alt={cert.title} />
+                          <img src={cert.image} alt={cert.title} loading="lazy" />
                         </div>
                         <div className={styles.certificateContent}>
                           <h3 className={styles.certificateTitle}>{cert.title}</h3>

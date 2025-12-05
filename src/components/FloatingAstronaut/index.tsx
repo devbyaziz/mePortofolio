@@ -2,6 +2,7 @@ import { useRef, useState, useEffect, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { PerspectiveCamera, useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
+import styles from './floating-astronaut.module.css';
 
 interface AstronautModelProps {
   position?: [number, number, number];
@@ -175,16 +176,9 @@ export default function FloatingAstronaut() {
   }, []);
 
   return (
-    <div style={{
-      width: '100%',
-      height: '100%',
-      position: 'absolute',
-      top: 0,
-      right: 0,
-      pointerEvents: 'none'
-    }}>
+    <div className={styles.container}>
       <Canvas
-        style={{ background: 'transparent' }}
+        className={styles.canvas}
         gl={{
           alpha: true,
           antialias: !isMobile, // FIX #4: Nonaktifkan antialiasing pada mobile
