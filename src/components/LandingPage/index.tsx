@@ -28,23 +28,23 @@ const LandingPage = () => {
       title: 'Web Coffee Bean Quality',
       description: 'A coffee bean quality assessment expert system based on SCAA and SNI standards using rule-based reasoning method',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      image: '',
+      image: '/images/projects/coffe-project.webp',
       link: 'https://github.com/devbyaziz/web-coffee-bean-quality'
     },
     {
       id: 2,
-      title: 'CCTV Traffic Forecasting',
-      description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
-      tags: ['Python'],
-      image: '',
-      link: 'https://github.com/devbyaziz/forecast-project'
+      title: 'myPortfolio v1',
+      description: 'My personal portfolio website version 1 showcasing projects and skills',
+      tags: ['React', 'CSS', 'TypeScript'],
+      image: '/images/projects/porto-project.webp',
+      link: 'https://github.com/devbyaziz/myPortfolio-v1'
     },
     {
       id: 3,
       title: 'Mario Game',
       description: 'A simple 2D Mario game built using vanilla HTML, CSS, and JavaScript',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      image: '',
+      image: '/images/projects/mario-project.webp',
       link: 'https://github.com/devbyaziz/mario-js'
     },
     {
@@ -52,48 +52,48 @@ const LandingPage = () => {
       title: 'Weather App',
       description: 'A modern and interactive weather forecast application using OpenWeather API',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      image: '',
+      image: '/images/projects/weather-project.webp',
       link: 'https://github.com/devbyaziz/weather-app/tree/main'
     },
     {
       id: 5,
+      title: 'Tic Tac Toe Game',
+      description: 'A simple Tic Tac Toe game with unbeatable AI using Minimax algorithm',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/tictactoe-project.webp',
+      link: 'https://github.com/devbyaziz/tic-tac-toe'
+    },
+    {
+      id: 6,
+      title: 'SOS Game',
+      description: 'A basic SOS game implementation with interactive gameplay',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/sos-project.webp',
+      link: 'https://github.com/devbyaziz/sosGame'
+    },
+    {
+      id: 7,
+      title: 'Berita Oleh Aziz',
+      description: 'A news website that provides the latest news articles from various sources using GNews API',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      image: '/images/projects/news-project.webp',
+      link: 'https://github.com/devbyaziz/beritaolehAziz'
+    },
+    {
+      id: 8,
+      title: 'CCTV Traffic Forecasting',
+      description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
+      tags: ['Python'],
+      image: '',
+      link: 'https://github.com/devbyaziz/forecast-project'
+    },
+    {
+      id: 9,
       title: 'Restful API e-Commerce',
       description: 'A simple RESTful API for e-commerce application with complete CRUD operations',
       tags: ['Express.js', 'Node.js', 'SQLite', 'Prisma'],
       image: '',
       link: 'https://github.com/devbyaziz/restfulAPI-Training'
-    },
-    {
-      id: 6,
-      title: 'Tic Tac Toe Game',
-      description: 'A simple Tic Tac Toe game with unbeatable AI using Minimax algorithm',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      image: '',
-      link: 'https://github.com/devbyaziz/tic-tac-toe'
-    },
-    {
-      id: 7,
-      title: 'SOS Game',
-      description: 'A basic SOS game implementation with interactive gameplay',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      image: '',
-      link: 'https://github.com/devbyaziz/sosGame'
-    },
-    {
-      id: 8,
-      title: 'Berita Oleh Aziz',
-      description: 'A news website that provides the latest news articles from various sources using GNews API',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      image: '',
-      link: 'https://github.com/devbyaziz/beritaolehAziz'
-    },
-    {
-      id: 9,
-      title: 'myPortfolio v1',
-      description: 'My personal portfolio website version 1 showcasing projects and skills',
-      tags: ['React', 'CSS', 'TypeScript'],
-      image: '',
-      link: 'https://github.com/devbyaziz/myPortfolio-v1'
     }
   ];
 
@@ -102,9 +102,9 @@ const LandingPage = () => {
     {
       id: 1,
       period: 'Sept 2025 - Nov 2025',
-      title: 'Frontend Developer',
-      company: 'Telkom Indonesia',
-      description: 'Developing modern web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality products that exceed client expectations. Implemented responsive designs and optimized performance.',
+      title: 'Frontend Developer Intern',
+      company: 'BigBox AI – Telkom Indonesia',
+      description: 'As a Frontend Developer Intern at BigBox AI – Telkom Indonesia, I contributed to the development of the big data and AI ecosystem, focusing on bug fixing, design slicing, API integration, and new feature development across various application modules. This experience strengthened my ability to build responsive user interfaces, collaborate across teams, and understand the end-to-end product development process within an enterprise-scale environment at Telkom Indonesia.',
       tags: ['React', 'TypeScript', 'Next.js', 'Tailwind']
     }
   ];
