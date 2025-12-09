@@ -1,6 +1,7 @@
-import { useState, useEffect, useRef, useMemo } from 'react';
+import { useState, useEffect, useRef, useMemo, lazy, Suspense } from 'react';
 import styles from './landing-page.module.css';
-import FloatingAstronaut from '../FloatingAstronaut';
+
+const FloatingAstronaut = lazy(() => import('../FloatingAstronaut'));
 
 const LandingPage = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -387,7 +388,9 @@ const LandingPage = () => {
 
         {/* Astronaut 3D Melayang */}
         <div className="floating-laptop-container">
-          <FloatingAstronaut />
+          <Suspense fallback={<div />}>
+            <FloatingAstronaut />
+          </Suspense>
         </div>
 
         <div className={styles.scrollIndicator}>
