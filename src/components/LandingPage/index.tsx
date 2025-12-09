@@ -41,6 +41,14 @@ const LandingPage = () => {
     },
     {
       id: 3,
+      title: 'Restful API e-Commerce',
+      description: 'A simple RESTful API for e-commerce application with complete CRUD operations',
+      tags: ['Express.js', 'Node.js', 'SQLite', 'Prisma'],
+      image: '/images/projects/restapi-project.webp',
+      link: 'https://github.com/devbyaziz/restfulAPI-Training'
+    },
+    {
+      id: 4,
       title: 'Mario Game',
       description: 'A simple 2D Mario game built using vanilla HTML, CSS, and JavaScript',
       tags: ['HTML', 'CSS', 'JavaScript'],
@@ -48,7 +56,7 @@ const LandingPage = () => {
       link: 'https://github.com/devbyaziz/mario-js'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Weather App',
       description: 'A modern and interactive weather forecast application using OpenWeather API',
       tags: ['HTML', 'CSS', 'JavaScript'],
@@ -56,7 +64,7 @@ const LandingPage = () => {
       link: 'https://github.com/devbyaziz/weather-app/tree/main'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Tic Tac Toe Game',
       description: 'A simple Tic Tac Toe game with unbeatable AI using Minimax algorithm',
       tags: ['HTML', 'CSS', 'JavaScript'],
@@ -64,7 +72,7 @@ const LandingPage = () => {
       link: 'https://github.com/devbyaziz/tic-tac-toe'
     },
     {
-      id: 6,
+      id: 7,
       title: 'SOS Game',
       description: 'A basic SOS game implementation with interactive gameplay',
       tags: ['HTML', 'CSS', 'JavaScript'],
@@ -72,7 +80,7 @@ const LandingPage = () => {
       link: 'https://github.com/devbyaziz/sosGame'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Berita Oleh Aziz',
       description: 'A news website that provides the latest news articles from various sources using GNews API',
       tags: ['HTML', 'CSS', 'JavaScript'],
@@ -80,20 +88,12 @@ const LandingPage = () => {
       link: 'https://github.com/devbyaziz/beritaolehAziz'
     },
     {
-      id: 8,
+      id: 9,
       title: 'CCTV Traffic Forecasting',
       description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
       tags: ['Python'],
       image: '',
       link: 'https://github.com/devbyaziz/forecast-project'
-    },
-    {
-      id: 9,
-      title: 'Restful API e-Commerce',
-      description: 'A simple RESTful API for e-commerce application with complete CRUD operations',
-      tags: ['Express.js', 'Node.js', 'SQLite', 'Prisma'],
-      image: '',
-      link: 'https://github.com/devbyaziz/restfulAPI-Training'
     }
   ];
 
