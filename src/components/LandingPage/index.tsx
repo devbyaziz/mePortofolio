@@ -93,7 +93,7 @@ const LandingPage = () => {
       title: 'CCTV Traffic Forecasting',
       description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
       tags: ['Python'],
-      image: '',
+      image: '/images/projects/news-project.webp', // Temporary: gunakan placeholder sampai image asli ditambahkan
       link: 'https://github.com/devbyaziz/forecast-project'
     }
   ];
@@ -171,6 +171,26 @@ const LandingPage = () => {
       tags: ['Cloud Computing', 'Generative AI', 'AWS'],
       image: '/images/certificates/cloud-sertif.webp',
       link: 'https://www.dicoding.com/certificates/N9ZO25VO6PG5'
+    },
+    {
+      id: 7,
+      title: 'Data Science Bootcamp',
+      issuer: 'Satya Negara University x Maxy Academy',
+      date: '16 Dec 2025',
+      description: 'Responsible for supporting the planning, coordination, and execution of the bootcamp activities, ensuring smooth operations, and assisting in strategic decision-making to achieve the program objectives.',
+      tags: ['Data Science', 'Machine Learning', 'Python', 'Analytics'],
+      image: '/images/certificates/bootcamp-sertif.webp',
+      link: '/bootcamp-sertif1.pdf'
+    },
+    {
+      id: 8,
+      title: 'Learn Data Visualization with Tableau',
+      issuer: 'Zenith Academy x Tableau',
+      date: '3 Jul 2025',
+      description: 'Mastered data visualization techniques using Tableau, learning to create interactive dashboards, reports, and visual analytics to communicate data insights effectively for business intelligence.',
+      tags: ['Tableau', 'Data Visualization', 'Business Intelligence', 'Dashboards'],
+      image: '/images/certificates/tableau-sertif.webp',
+      link: '/tableau-sertif1.pdf'
     }
   ];
 
@@ -194,7 +214,7 @@ const LandingPage = () => {
 
   // Item unggulan untuk carousel mobile (4 item masing-masing)
   const featuredProjects = [projects[0], projects[1], projects[3], projects[5]];
-  const featuredCertificates = [certificates[0], certificates[1], certificates[3], certificates[4]];
+  const featuredCertificates = [certificates[0], certificates[3], certificates[4], certificates[5]];
 
   // Tentukan item yang akan ditampilkan
   const displayedProjects = isMobile ? featuredProjects : (showAllProjects ? projects : projects.slice(0, 3));
@@ -380,8 +400,8 @@ const LandingPage = () => {
             <button className={styles.ctaButton} onClick={() => scrollToSection('about')} style={{ minWidth: '180px' }}>
               Learn More
             </button>
-            <a href="/resume.pdf" download className={styles.ctaButton} style={{ minWidth: '180px' }}>
-              Download Resume
+            <a href="/Resume (2).pdf" target="_blank" rel="noopener noreferrer" className={styles.ctaButton} style={{ minWidth: '180px' }}>
+              View Resume
             </a>
           </div>
         </div>

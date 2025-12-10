@@ -58,10 +58,13 @@ function Stars({ count = 200 }: { count?: number }) {
   );
 }
 
-function AstronautModel({ position = [0, 0, 0] }: AstronautModelProps) {
+interface AstronautModelInternalProps extends AstronautModelProps {
+  isMobile: boolean;
+}
+
+function AstronautModel({ position = [0, 0, 0], isMobile }: AstronautModelInternalProps) {
   const orbitGroupRef = useRef<THREE.Group>(null);
   const astronautGroupRef = useRef<THREE.Group>(null);
-  const [isMobile, setIsMobile] = useState(false);
 
   // Muat model GLB
   const { scene } = useGLTF('/Astronaut.glb');
@@ -69,18 +72,6 @@ function AstronautModel({ position = [0, 0, 0] }: AstronautModelProps) {
   // FIX #3: Cache scene yang di-clone untuk mencegah memory leak dan meningkatkan performa
   // Clone hanya sekali saat komponen mount, bukan setiap render!
   const clonedScene = useMemo(() => scene.clone(), [scene]);
-
-  // Cek apakah mobile saat mount
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
 
   // Animation untuk orbital (mengelilingi) dan floating effect
   useFrame((state) => {
@@ -242,7 +233,7 @@ export default function FloatingAstronaut() {
         <Stars count={isMobile ? 100 : 200} />
 
         {/* Model Astronaut dengan error boundary */}
-        {!isLoading && !hasError && <AstronautModel position={[0, 0, 0]} />}
+        {!isLoading && !hasError && <AstronautModel position={[0, 0, 0]} isMobile={isMobile} />}
         {!isLoading && hasError && <LoadingFallback />}
       </Canvas>
     </div>
