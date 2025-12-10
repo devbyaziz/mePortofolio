@@ -6,7 +6,8 @@
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
-    "@types/node": "^16.18.126",
+    git add package.json
+    git commit -m "fix: update @types/node to v20 for Vite compatibility"    "@types/node": "^20.0.0",
     "@types/react": "^19.1.15",
     "@types/react-dom": "^19.1.9",
     "react": "^19.1.1",
