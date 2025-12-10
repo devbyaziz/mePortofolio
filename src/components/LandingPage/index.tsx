@@ -93,7 +93,7 @@ const LandingPage = () => {
       title: 'CCTV Traffic Forecasting',
       description: 'A forecasting system for CCTV traffic prediction using SARIMAX statistical model',
       tags: ['Python'],
-      image: '/images/projects/news-project.webp', // Temporary: gunakan placeholder sampai image asli ditambahkan
+      image: '',
       link: 'https://github.com/devbyaziz/forecast-project'
     }
   ];
