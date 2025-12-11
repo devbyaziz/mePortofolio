@@ -400,7 +400,7 @@ const LandingPage = () => {
             <button className={styles.ctaButton} onClick={() => scrollToSection('about')} style={{ minWidth: '180px' }}>
               Learn More
             </button>
-            <a href="/Resume (2).pdf" target="_blank" rel="noopener noreferrer" className={styles.ctaButton} style={{ minWidth: '180px' }}>
+            <a href="/Resume Aziz Al-Habibie Simatupang.pdf" target="_blank" rel="noopener noreferrer" className={styles.ctaButton} style={{ minWidth: '180px' }}>
               View Resume
             </a>
           </div>
